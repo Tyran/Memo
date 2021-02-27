@@ -58,6 +58,9 @@ set nocompatible
 
 "cursor state
 set ruler
+set gcr=a:block-blinkon0
+set gcr=i:ver30-blinkon0
+
 
 "the edge off the buffer
 set scrolloff=3
@@ -218,6 +221,7 @@ let showmarks_hlline_upper = 1
 hi ShowMarksHLl ctermbg=Yellow   ctermfg=Black  guibg=#FFDB72    guifg=Black
 hi ShowMarksHLu ctermbg=Magenta  ctermfg=Black  guibg=#FFB3FF    guifg=Black 
 
+set belloff=all
 "=============================
 " markbrowser setting
 "=============================
